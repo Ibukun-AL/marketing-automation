@@ -12,9 +12,11 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: process.env.PORT || 3000,
+    allowedHosts: ['marketing-automation-w6fm.onrender.com']
   },
   preview: {
     host: '0.0.0.0',
     port: process.env.PORT || 3000,
-  },
+    allowedHosts: ['marketing-automation-w6fm.onrender.com']
+  }
 })
